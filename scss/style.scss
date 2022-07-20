@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope",sans-serif;
+}
+
+html{
+    position: relative;
+}
+ body {
+    height: 100%;
+}
+
+.wrapper{
+    max-width: 100%;
+    margin: 0 135px;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+button {
+    border-radius: 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+@import 'header.scss';
+@import 'main.scss';
+@import 'content.scss';
+

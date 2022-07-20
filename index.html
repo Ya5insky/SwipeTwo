@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header_container">
+                <div class="header_button">
+                    <button type="button" class="header-catolog__button">
+                        <span>Каталог</span>
+                    </button>
+                </div>
+                <div class="header_search">
+                    <form>
+                        <label>
+                          <input type="text" placeholder="Я ищу..."   autocomplete="off">
+                    
+                          <button type="submit">
+                            <img src="icons/search.svg">
+                          </button>
+                    
+                        </label>
+                      </form>
+                </div>
+                <div class="header__nav">
+                    <div class="header__mobile-search">
+                        <button type="button" aria-label="Поиск">
+                            <img src="icons/search.svg">
+                        </button>
+                    </div>
+                    <div class="header__nav-basket header__nav-profile header__nav-like">
+                        <a href="#" class="basket">
+                            <span>0</span>
+                                <img src="icons/basket.svg" alt="basket-icon">
+                            <p>Карзина</p>
+                        </a>
+                        <a href="#" class="profile">
+                            <img src="icons/profile.svg" alt="profile-icon">
+                            <p>Профиль</p>
+                        </a>
+                        <a href="#" class="like">
+                            <img src="icons/like.svg" alt="like-icon">
+                            <p>Нравится</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="main">
+            <div class="main__breadcrumbs">
+                    <ul>
+                        <li id="breadcrumb_0">
+                            <a href="#">Главная</a>
+                            <img src="icons/arrow.svg" alt=">">
+                        </li>
+                        <li id="breadcrumb_1">Умная площадка</li>
+                    </ul>
+            </div>
+            <div class="main__descr">
+                <h2>Программа 1</h2>
+                <div class="descr-info">
+                    <p>Для иллюстрации упражнений лучше конечно использовать анимацию, пусть и простую. Сможем ли мы получить исходники изображений в векторе (svg)? Нам так было бы удобнее делать анимацию. Размер изображений для разных упражнений должен быть одинаковый по размеру и пропорциям. Для каждого изображений одного упражнения - оборудование должно быть неподвижно и находиться в одном месте
+
+                    </p>
+                </div>
+                <div class="descr__button">
+                    <button class="descr--equip button">
+                        <span>Следующая программа</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section__content">
+            <div class="section__containers">
+                <div class="section__container-item section__container-green">
+                    <div class="item-content">
+                    <div class="item-content__descr">
+                            <p>Отжимания <br>от перекладины</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="section__container-item section__container-blue">
+                    <div class="item-content">
+                    <div class="item-content__descr">
+                            <p>Отжимания обратным <br>хватом</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="section__container-item section__container-yellow">
+                    <div class="item-content">
+                    <div class="item-content__descr">
+                            <p>Подтягивания <br>на турнике</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="section__container-item section__container-red">
+                    <div class="item-content">
+                    <div class="item-content__descr">
+                            <p>Скручивания <br>на скамье</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

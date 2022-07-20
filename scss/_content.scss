@@ -1,0 +1,70 @@
+.section__containers{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+
+    .section__container-item{
+        position: relative;
+        width: 389px;
+        height: 384px;
+    &.section__container-green{
+        background-color: green;
+        background-image: url(../img/push.png);
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        background-position: 50% 30% ;}
+        &.section__container-blue{
+            background-color: blue;
+            background-image: url(../img/exercise.png);
+            background-repeat: no-repeat;
+            background-blend-mode: multiply;
+            background-position: 50% 30% ;}
+            &.section__container-yellow{
+                background-color: yellow;
+                background-image: url(../img/push.png);
+                background-repeat: no-repeat;
+                background-blend-mode: multiply;
+                background-position: 50% 30% ;}
+                &.section__container-red{
+                    background-color: red;
+                    background-image: url(../img/exercise.png);
+                    background-repeat: no-repeat;
+                    background-blend-mode: multiply;
+                    background-position: 50% 30% ;}
+        .item-content {
+            bottom:0;
+            display: flex;
+            position: absolute;
+            justify-content: space-between;
+            text-align: start;
+            background-color: black;
+            max-width: 529px;
+            max-height: 90px;
+            padding: 16px 41px 20px 40px;
+            color: #FFFFFF;
+            width: 100%; 
+
+            img{
+                border-radius:50%;
+                background-color:white;
+                width: 44px;
+                height: 44px;
+                text-align: center;
+                padding: 10px; 
+                margin-top: auto;
+            }
+
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+            }
+            h4{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 140%;
+            }
+        }
+    }
+}
+
