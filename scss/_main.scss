@@ -36,13 +36,46 @@
 
 .main__descr{
 
+    .main_title{
+        .back{
+            width: 91px;
+            height: 32px;
+            background: #FFCC2D;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            color: #090808;
+            position: absolute;
+            margin-left: 1540px;
+            justify-content: flex-end;
+            background-image: url(../icons/arrow-button.png);
+            background-repeat: no-repeat;
+            background-position: 10%;
+            padding-right: 11px;
+        }
+
+        h2{
+            position: relative;
+        }
+    }
+
     h2{
         font-weight: 600;
         font-size: 48px;
         line-height: 66px;
         text-transform: uppercase;
         color: #090808;
-        padding-bottom: 20px;
+        padding-bottom: 4px;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: #090808;
+        padding-bottom: 26px;
     }
 
     .descr-info{
