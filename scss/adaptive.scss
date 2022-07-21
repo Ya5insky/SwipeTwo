@@ -32,6 +32,13 @@
     }
     .main__descr{
 
+        .main_title{
+            .back{
+                margin-left: 1079px;
+            
+            }
+        }
+
         h2{
             font-weight: 600;
             font-size: 35px;
@@ -75,6 +82,12 @@
     }
 
     .main__descr{
+        .main_title{
+            .back{
+                margin-left: 893px;
+            
+            }
+        }
 
         h2{
             font-weight: 600;
@@ -128,6 +141,13 @@
   /* Medium Devices, Desktops */
   @media only screen and (max-width: 992px) {
     .main__descr{
+            .main_title{
+                .back{
+                    margin-left: 861px;
+                
+                }
+            }
+        
 
         h2{
             font-weight: 600;
@@ -222,6 +242,12 @@
     }
 
     .main__descr{
+        .main_title{
+            .back{
+                margin-left: 637px;
+            
+            }
+        }
 
         h2{
             font-weight: 600;
@@ -238,37 +264,61 @@
             width: 187px;
         }
     }
-
-    
     .section__containers{
         padding-bottom: 25px;
         flex-wrap: wrap;
         .section__container-item{
-            margin-bottom: 17px;
-
+        margin-bottom: 17px;
+        position: relative;
+        width: 355px;
+        height: 363px;
+        
+        &.section__container-green{
+                    background-color: green;
+                    background-image: url(../img/push.png);
+                    background-repeat: no-repeat;
+                    background-blend-mode: multiply;
+                    background-position: 50% 30% ;
+                    background-size: 80%;
+            }
+            &.section__container-blue{
+                background-color: #4D7FCA;;
+                background-image: url(../img/exercise.png);
+                background-repeat: no-repeat;
+                background-blend-mode: multiply;
+                background-position: 50% 30% ;
+                background-size: 60%;
+            }
+                &.section__container-yellow{
+                    background-color: #FFCC2D;;
+                    background-image: url(../img/push.png);
+                    background-repeat: no-repeat;
+                    background-blend-mode: multiply;
+                    background-position: 50% 30% ;
+                    background-size: 80%;
+                }
+                    &.section__container-red{
+                        background-color: red;
+                        background-image:  url(../img/exercise.png);
+                        background-repeat: no-repeat;
+                        background-blend-mode: multiply;
+                        background-position: 50% 30% ;
+                        background-size: 60%;
+                    }
+        
             .item-content{
-
-                img{
-                    padding: 5px;
-                    margin-top: 5px;
-                    width: 33px;
-                    height: 33px;
-                }
-                
-                h4{
-                    font-weight: 700;
-                    font-size: 18px;
-                    line-height: 140%;
-                }
-
+                padding: 12px 2px 14px 39px;
                 p{
-                    font-weight: 400;
-                    font-size: 12px;
-                    line-height: 150%;
+                    line-height: 120%;
+                    font-weight: 600;
+                    font-size: 24px;
+
                 }
             }
         }
+
     }
+    
   }
 
   @media only screen and (max-width: 740px) {
@@ -278,6 +328,16 @@
         }
 
     }
+    .main__descr{
+        .main_title{
+        .back{
+            margin-left: 609px;
+            position: relative;
+            margin-bottom: 15px;
+        }
+    }
+}
+    
 
      .header__nav{
         .header__mobile-search {
@@ -293,14 +353,71 @@
 
     .section__containers{
         .section__container-item{
+        position: relative;
+        width: 131px;
+        height: 142px;
+        br{
+            display: none;
+        }
+        &.section__container-green{
+                    background-color: green;
+                    background-image: url(../img/push.png);
+                    background-repeat: no-repeat;
+                    background-blend-mode: multiply;
+                    background-position: 50% 30% ;
+                    background-size: 80%;
+            }
+            &.section__container-blue{
+                background-color: #4D7FCA;;
+                background-image: url(../img/exercise.png);
+                background-repeat: no-repeat;
+                background-blend-mode: multiply;
+                background-position: 50% 30% ;
+                background-size: 60%;
+            }
+                &.section__container-yellow{
+                    background-color: #FFCC2D;;
+                    background-image: url(../img/push.png);
+                    background-repeat: no-repeat;
+                    background-blend-mode: multiply;
+                    background-position: 50% 30% ;
+                    background-size: 80%;
+                }
+                    &.section__container-red{
+                        background-color: red;
+                        background-image:  url(../img/exercise.png);
+                        background-repeat: no-repeat;
+                        background-blend-mode: multiply;
+                        background-position: 50% 30% ;
+                        background-size: 60%;
+                    }
+        
+            .item-content{
+                padding: 5px 12px 8px 15px;
+                p{
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 120%;
+                    color: #FFFFFF;
+
+                }
+            }
         }
     }
+
 
   }
   
   @media only screen and (max-width: 600px) {
 
-
+    .main__descr{
+        .main_title{
+            .back{
+                margin-left: 469px;
+            
+            }
+        }
+    }
     
 
     .header_container{
@@ -322,6 +439,26 @@
 
 
   @media only screen and (max-width: 540px) {
+    .header_button{
+        .header-catolog__button {
+            width: 100%;
+        }
+    }
+
+    .section__containers{
+        .section__container-item{
+        position: relative;
+        width: 131px;
+        height: 142px;
+        br{
+            display: none;
+        }
+    }
+}
+    
+    
+    
+    
     .header__nav {
         width: 100%;
         justify-content: space-between;
@@ -333,17 +470,27 @@
     }
 
     .main__descr{
+
+
+
+        .main_title{
+            .back{
+                margin-left: 0px;
+                position: relative;
+                margin-bottom: 15px;
+            }
+        }
         .descr__button{
             padding-bottom: 32px;
                 button{
                     width: 100%;
                 }
-            }
+        }
     
 
         h2{
             font-weight: 600;
-            font-size: 20px;
+            font-size: 26px;
             line-height: 27px;
             text-transform: uppercase;
             color: #090808;
@@ -362,63 +509,84 @@
             }
         }
     }
-
+}
     
 
-    .header_button{
-        .header-catolog__button {
-            width: 100%;
-        }
-    }
+ 
 
-  }
+
+
 
 
   /* Extra Small Devices, Phones */
   @media only screen and (max-width: 480px) {
-    .section__containers{     
+    .section__containers{
         .section__container-item{
+        position: relative;
+        width: 131px;
+        height: 142px;
+        br{
+            display: none;
+        }
+        &.section__container-green{
+                    background-color: green;
+                    background-image: url(../img/push.png);
+                    background-repeat: no-repeat;
+                    background-blend-mode: multiply;
+                    background-position: 50% 30% ;
+                    background-size: 80%;
+            }
+            &.section__container-blue{
+                background-color: #4D7FCA;;
+                background-image: url(../img/exercise.png);
+                background-repeat: no-repeat;
+                background-blend-mode: multiply;
+                background-position: 50% 30% ;
+                background-size: 60%;
+            }
+                &.section__container-yellow{
+                    background-color: #FFCC2D;;
+                    background-image: url(../img/push.png);
+                    background-repeat: no-repeat;
+                    background-blend-mode: multiply;
+                    background-position: 50% 30% ;
+                    background-size: 80%;
+                }
+                    &.section__container-red{
+                        background-color: red;
+                        background-image:  url(../img/exercise.png);
+                        background-repeat: no-repeat;
+                        background-blend-mode: multiply;
+                        background-position: 50% 30% ;
+                        background-size: 60%;
+                    }
+        
             .item-content{
-                padding: 10px 22px 6px 25px;
-                img{
-                    width: 33px;
-                    height: 33px;
-                }
-                
-                h4{
-                    font-weight: 700;
-                    font-size: 18px;
-                    line-height: 140%;
-                }
-
+                padding: 5px 12px 8px 15px;
                 p{
-                    font-weight: 400;
+                    line-height: 120%;
+                    font-weight: 600;
                     font-size: 12px;
-                    line-height: 150%;
+                    line-height: 120%;
+                    color: #FFFFFF;
                 }
-                             
             }
         }
+
     }
+    
   }
   
   /* Custom, iPhone Retina */
   @media only screen and (max-width: 320px) {
 
-    .section__containers{     
-        .section__container-item{
-            .item-content{
-                padding: 3px 22px 6px 25px;
-                img{
-                    width: 23px;
-                    height: 23px;
-                    padding: 5px;
-                    margin-top: 12px;
-                }
-            }
-        }
+
+    
+    
+
+  
+
     }
-  }
   /*==========  Mobile First  ========== */
   /* Custom, iPhone Retina */
   @media only screen and (min-width: 320px) {
