@@ -576,6 +576,46 @@
     }
     
   }
+
+
+  @media only screen and (max-width: 425px) {
+
+    .section__containers{
+        .section__container-item{
+                position: relative;
+                width: 183px;
+                height: 180px;
+            }
+
+
+        }
+    
+
+
+    
+    
+
+  
+
+}
+
+  @media only screen and (max-width: 375px) {
+
+    .section__containers{
+        .section__container-item{
+            position: relative;
+            width: 162px;
+            height: 160px;
+        }
+    }
+
+
+    
+    
+
+  
+
+}
   
   /* Custom, iPhone Retina */
   @media only screen and (max-width: 320px) {
