@@ -3,23 +3,6 @@
   @media only screen and (max-width: 1500px) {
   
     .main__descr{
-
-        .main_title{
-            .back{
-                margin-left: 1079px;
-            
-            }
-        }
-
-        h2{
-            font-weight: 600;
-            font-size: 35px;
-            line-height: 49px;
-            text-transform: uppercase;
-            color: #090808;
-            padding-bottom: 20px;
-        }
-        
         .descr-info{
             padding-bottom: 32px;
 
@@ -34,7 +17,6 @@
     }
 
     .section__containers{
-        padding-bottom: 25px;
         flex-wrap: wrap;
         .section__container-item{
         margin-bottom: 17px;
@@ -43,35 +25,15 @@
         height: 370px;
         
         &.section__container-green{
-                    background-color: green;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
             }
             &.section__container-blue{
-                background-color: #4D7FCA;;
-                background-image: url(../img/exercise.png);
-                background-repeat: no-repeat;
-                background-blend-mode: multiply;
-                background-position: 50% 30% ;
                 background-size: 60%;
             }
                 &.section__container-yellow{
-                    background-color: #FFCC2D;;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
                 }
                     &.section__container-red{
-                        background-color: red;
-                        background-image:  url(../img/exercise.png);
-                        background-repeat: no-repeat;
-                        background-blend-mode: multiply;
-                        background-position: 50% 30% ;
                         background-size: 60%;
                     }
         
@@ -109,20 +71,16 @@
     }
 
     .main__descr{
-        .main_title{
-            .back{
-                margin-left: 893px;
-            
+        .main_about{
+            h2{
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 49px;
+                text-transform: uppercase;
+                color: #090808;
+                padding-bottom: 10px;
             }
-        }
-
-        h2{
-            font-weight: 600;
-            font-size: 36px;
-            line-height: 49px;
-            text-transform: uppercase;
-            color: #090808;
-            padding-bottom: 10px;
+         
         }
     }
     .header_button{
@@ -143,35 +101,16 @@
         height: 310px;
         
         &.section__container-green{
-                    background-color: green;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
             }
             &.section__container-blue{
-                background-color: #4D7FCA;;
-                background-image: url(../img/exercise.png);
-                background-repeat: no-repeat;
-                background-blend-mode: multiply;
-                background-position: 50% 30% ;
                 background-size: 60%;
             }
                 &.section__container-yellow{
-                    background-color: #FFCC2D;;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
+
                     background-size: 80%;
                 }
                     &.section__container-red{
-                        background-color: red;
-                        background-image:  url(../img/exercise.png);
-                        background-repeat: no-repeat;
-                        background-blend-mode: multiply;
-                        background-position: 50% 30% ;
                         background-size: 60%;
                     }
         
@@ -191,38 +130,6 @@
 
   /* Medium Devices, Desktops */
   @media only screen and (max-width: 992px) {
-    .main__descr{
-            .main_title{
-                .back{
-                    margin-left: 861px;
-                
-                }
-            }
-        
-
-        h2{
-            font-weight: 600;
-            font-size: 36px;
-            line-height: 49px;
-            text-transform: uppercase;
-            color: #090808;
-            padding-bottom: 10px;
-        }
-        
-        .descr-info{
-            padding-bottom: 32px;
-
-            p{
-                font-weight: 500;
-                font-size: 18px;
-                line-height: 25px;
-                color: #828282;
-                margin-right: 200px;
-            }
-        }
-    }
-
-    
     
     .header {
         margin-top: 25px;
@@ -264,6 +171,14 @@
             }
         }
     }
+
+    .section__containers{
+        .section__container-item{
+            position: relative;
+            width: 344px;
+            height: 341px;
+        }
+    }
         
 
 }
@@ -285,20 +200,14 @@
     }
 
     .main__descr{
-        .main_title{
-            .back{
-                margin-left: 637px;
-            
+        .main_about{
+            .main_title{
+                h2 {
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 49px;
+                }
             }
-        }
-
-        h2{
-            font-weight: 600;
-            font-size: 36px;
-            line-height: 49px;
-            text-transform: uppercase;
-            color: #090808;
-            padding-bottom: 10px;
         }
     }
     .header_button{
@@ -317,35 +226,15 @@
         height: 363px;
         
         &.section__container-green{
-                    background-color: green;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
             }
             &.section__container-blue{
-                background-color: #4D7FCA;;
-                background-image: url(../img/exercise.png);
-                background-repeat: no-repeat;
-                background-blend-mode: multiply;
-                background-position: 50% 30% ;
                 background-size: 60%;
             }
                 &.section__container-yellow{
-                    background-color: #FFCC2D;;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
                 }
                     &.section__container-red{
-                        background-color: red;
-                        background-image:  url(../img/exercise.png);
-                        background-repeat: no-repeat;
-                        background-blend-mode: multiply;
-                        background-position: 50% 30% ;
                         background-size: 60%;
                     }
         
@@ -372,17 +261,13 @@
 
     }
     .main__descr{
-        .main_title{
-        .back{
-            margin-left: 609px;
-            position: relative;
-            margin-bottom: 15px;
+        .main_about{
+            flex-direction: column;
         }
     }
-}
     
 
-     .header__nav{
+    .header__nav{
         .header__mobile-search {
             display: flex;
         }
@@ -397,41 +282,21 @@
     .section__containers{
         .section__container-item{
         position: relative;
-        width: 131px;
-        height: 142px;
+        width: 344px;
+        height: 341px;
         br{
             display: none;
         }
         &.section__container-green{
-                    background-color: green;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
             }
             &.section__container-blue{
-                background-color: #4D7FCA;;
-                background-image: url(../img/exercise.png);
-                background-repeat: no-repeat;
-                background-blend-mode: multiply;
-                background-position: 50% 30% ;
                 background-size: 60%;
             }
                 &.section__container-yellow{
-                    background-color: #FFCC2D;;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
                 }
                     &.section__container-red{
-                        background-color: red;
-                        background-image:  url(../img/exercise.png);
-                        background-repeat: no-repeat;
-                        background-blend-mode: multiply;
-                        background-position: 50% 30% ;
                         background-size: 60%;
                     }
         
@@ -453,15 +318,6 @@
   
   @media only screen and (max-width: 600px) {
 
-    .main__descr{
-        .main_title{
-            .back{
-                margin-left: 469px;
-            
-            }
-        }
-    }
-    
 
     .header_container{
         padding: 0;
@@ -471,6 +327,18 @@
     .header_button{
         flex: 1 1 auto;
         margin-right: 0px;
+    }
+
+    .main__descr{
+        .main_about{
+            .main_title{
+                h2 {
+                    font-weight: 600;
+                    font-size: 26px;
+                    line-height: 36px;
+                }
+            }
+        }
     }
     
 
@@ -497,40 +365,19 @@
             display: none;
         }
         &.section__container-green{
-                    background-color: green;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
             }
             &.section__container-blue{
-                background-color: #4D7FCA;;
-                background-image: url(../img/exercise.png);
-                background-repeat: no-repeat;
-                background-blend-mode: multiply;
-                background-position: 50% 30% ;
                 background-size: 60%;
             }
                 &.section__container-yellow{
-                    background-color: #FFCC2D;;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
                 }
                     &.section__container-red{
-                        background-color: red;
-                        background-image:  url(../img/exercise.png);
-                        background-repeat: no-repeat;
-                        background-blend-mode: multiply;
-                        background-position: 50% 30% ;
                         background-size: 60%;
                     }
         
             .item-content{
-                padding: 5px 12px 8px 15px;
                 p{
                     line-height: 120%;
                     font-weight: 600;
@@ -557,14 +404,6 @@
     }
 
     .main__descr{
-
-        .main_title{
-            .back{
-                margin-left: 0px;
-                position: relative;
-                margin-bottom: 15px;
-            }
-        }
         .descr__button{
             padding-bottom: 32px;
                 button{
@@ -614,40 +453,20 @@
             display: none;
         }
         &.section__container-green{
-                    background-color: green;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
+  
                     background-size: 80%;
             }
             &.section__container-blue{
-                background-color: #4D7FCA;;
-                background-image: url(../img/exercise.png);
-                background-repeat: no-repeat;
-                background-blend-mode: multiply;
-                background-position: 50% 30% ;
                 background-size: 60%;
             }
                 &.section__container-yellow{
-                    background-color: #FFCC2D;;
-                    background-image: url(../img/push.png);
-                    background-repeat: no-repeat;
-                    background-blend-mode: multiply;
-                    background-position: 50% 30% ;
                     background-size: 80%;
                 }
                     &.section__container-red{
-                        background-color: red;
-                        background-image:  url(../img/exercise.png);
-                        background-repeat: no-repeat;
-                        background-blend-mode: multiply;
-                        background-position: 50% 30% ;
                         background-size: 60%;
                     }
         
             .item-content{
-                padding: 5px 12px 8px 15px;
                 p{
                     line-height: 120%;
                     font-weight: 600;
